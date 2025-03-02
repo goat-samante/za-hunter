@@ -6,13 +6,31 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		D55F760B2D74D17E00F4927A /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55F760A2D74D17E00F4927A /* LocationManager.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		D55F75D12D72140700F4927A /* za hunter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "za hunter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D55F760A2D74D17E00F4927A /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		D55F760D2D74D4C600F4927A /* Exceptions for "za hunter" folder in "za hunter" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"za-hunter-Info.plist",
+			);
+			target = D55F75D02D72140700F4927A /* za hunter */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		D55F75D32D72140700F4927A /* za hunter */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				D55F760D2D74D4C600F4927A /* Exceptions for "za hunter" folder in "za hunter" target */,
+			);
 			path = "za hunter";
 			sourceTree = "<group>";
 		};
@@ -32,6 +50,7 @@
 		D55F75C82D72140700F4927A = {
 			isa = PBXGroup;
 			children = (
+				D55F760A2D74D17E00F4927A /* LocationManager.swift */,
 				D55F75D32D72140700F4927A /* za hunter */,
 				D55F75D22D72140700F4927A /* Products */,
 			);
@@ -119,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D55F760B2D74D17E00F4927A /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,6 +274,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"za hunter/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "za-hunter-Info.plist";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app requires the use of Location Services";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -282,6 +304,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"za hunter/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "za-hunter-Info.plist";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app requires the use of Location Services";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
