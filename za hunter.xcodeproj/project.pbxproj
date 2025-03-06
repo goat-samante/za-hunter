@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		D55F760B2D74D17E00F4927A /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55F760A2D74D17E00F4927A /* LocationManager.swift */; };
-		D55F76112D79281200F4927A /* LocationDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55F76102D79281200F4927A /* LocationDetailsView.swift */; };
+		D55F76132D792A2500F4927A /* LocationDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55F76122D792A2500F4927A /* LocationDetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D55F75D12D72140700F4927A /* za hunter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "za hunter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D55F760A2D74D17E00F4927A /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
-		D55F76102D79281200F4927A /* LocationDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailsView.swift; sourceTree = "<group>"; };
+		D55F76122D792A2500F4927A /* LocationDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -39,7 +39,7 @@
 		D55F75C82D72140700F4927A = {
 			isa = PBXGroup;
 			children = (
-				D55F76102D79281200F4927A /* LocationDetailsView.swift */,
+				D55F76122D792A2500F4927A /* LocationDetailsView.swift */,
 				D55F760A2D74D17E00F4927A /* LocationManager.swift */,
 				D55F75D32D72140700F4927A /* za hunter */,
 				D55F75D22D72140700F4927A /* Products */,
@@ -128,7 +128,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D55F76112D79281200F4927A /* LocationDetailsView.swift in Sources */,
+				D55F76132D792A2500F4927A /* LocationDetailsView.swift in Sources */,
 				D55F760B2D74D17E00F4927A /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
