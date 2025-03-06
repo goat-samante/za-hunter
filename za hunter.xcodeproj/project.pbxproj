@@ -15,22 +15,9 @@
 		D55F760A2D74D17E00F4927A /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		D55F760D2D74D4C600F4927A /* Exceptions for "za hunter" folder in "za hunter" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				"za-hunter-Info.plist",
-			);
-			target = D55F75D02D72140700F4927A /* za hunter */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		D55F75D32D72140700F4927A /* za hunter */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				D55F760D2D74D4C600F4927A /* Exceptions for "za hunter" folder in "za hunter" target */,
-			);
 			path = "za hunter";
 			sourceTree = "<group>";
 		};
